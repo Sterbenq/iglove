@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <link rel="shortcut icon" href="/img/image2.png" type="image/x-icon">
+    <title>iGlove</title>
+</head>
+<body>
+
+    <div class="erro-box">
+        <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12 16.99V17M12 7V14M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+        Відправлення заявок можливе лише раз у 5 хвилин, зачекайте та спробуйте ще раз.
+    </div>
+
+    <div class="success" style="display: none;">
+        <div class="suc-box">
+            <svg width="20px" height="20px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" fill="#000000" class="close-suc"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill="#000000" d="M195.2 195.2a64 64 0 0 1 90.496 0L512 421.504 738.304 195.2a64 64 0 0 1 90.496 90.496L602.496 512 828.8 738.304a64 64 0 0 1-90.496 90.496L512 602.496 285.696 828.8a64 64 0 0 1-90.496-90.496L421.504 512 195.2 285.696a64 64 0 0 1 0-90.496z"></path></g></svg>
+            <div class="player">
+                
+            </div>
+            <div class="suc-title">Ви успішно подали заявку</div>
+            <div class="suc-text">Очікуйте зовсім скоро наш менеджер зв'яжется із Вами для уточнення деталей замовлення та відповіді на Ваші заитання.</div>
+        </div>
+    </div>
+
+    <main>
+        <section class="content-section" id="home">
+            <div class="container">
+                <div class="title">iGlove</div>
+                <div class="row">
+                    <div class="row-elem">
+                        <h1>Рукавички для сенсорних екранів iGlove</h1>
+                        <p>Теплі зимові рукавички з спеціального провідного матеріалу дозволять користувачеві використовувати сенсорні пристрої, в зимовий період не знімаючи рукавички.</p>
+                        <div class="price">
+                            249 ₴
+                        </div>
+                        <div class="btn-box">
+                            <button class="mode-btn" onclick="redirectToBot()">Замовити iGlove</button>
+                        </div>
+                    </div>
+                    <div class="row-elem animated-box">
+                        <img src="/img/image-1.png" alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+            <div class="pattern-bg"></div>
+        </section>
+
+        <section class="content-section" id="second">
+            <div class="container">
+                <div class="row">
+                    <div class="second-item">
+                        <div class="second-title">
+                            <i class='bx bx-like' ></i>
+                        </div>
+                        <div class="second-desc">
+                            <strong>100% гарантія якості</strong>
+                            Ми гарантуємо 100% якість всієї продукції - Ви зможете обміняти або повернути товар, якість якого Вас не задовольняє.
+                        </div>
+                    </div>
+                    <div class="second-item">
+                        <div class="second-title">
+                            <i class='bx bx-time-five'></i>
+                        </div>
+                        <div class="second-desc">
+                            <strong>Обмежена пропозиція</strong>
+                            Встигніть придбати рукавички для сенсорних екранів за вигідною ціною.
+                        </div>
+                    </div>
+                    <div class="second-item">
+                        <div class="second-title">
+                            <i class='bx bx-package' ></i>
+                        </div>
+                        <div class="second-desc">
+                            <strong>Оплата при отриманні</strong>
+                            Сплачуйте товар лише після отримання та перевірки його якості у почтовому відділенні. 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="content-section section-padding" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="row-elem">
+                        <div class="row-title">Зробіть своє життя простішим разом з iGlove</div>
+                        <p>Рукавички для сенсорних екранів - ідеальне рішення для холодної зими. Теплі зимові рукавички з спеціальні провідного матеріалу дозволять користувачеві використовувати сенсорні пристрої, в зимовий період не знімаючи рукавички.</p>
+                        <ul>
+                            <li>Допустиме ручне прання в прохолодній воді</li>
+                            <li>Використовуйте свій смартфон із великим комфортом</li>
+                            <li>Спеціальний провідний матеріал дасть можливість використовувати сенсорний пристрій, носячи рукавички</li>
+                            <li>Сумісність з різними сенсорними пристроями, у тому числі з iPad</li>
+                            <li>Не подряпає або ще якось пошкодить екран</li>
+                        </ul>
+                    </div>
+                    <div class="row-elem image-box">
+                        <img src="/img/image2.png" alt="" srcset="" height="350">
+                    </div>
+                </div>
+            </div>
+            <div class="svg-shape-bottom">
+                <img src="/img/wave-bottom-1.svg" class="bottom-shape img-fluid" alt="" >
+            </div>
+        </section>
+
+
+        <section class="content-section" id="third">
+            <div class="container">
+                <div class="row">
+                    <div class="row-elem image-box">
+                        <img src="/img/image3.png" alt="" srcset="" height="350">
+                    </div>
+                    <div class="row-elem">
+                        <div class="row-title">Зробіть своє життя простішим разом з iGlove</div>
+                        <p>Це рукавички, які можна носити просто в повсякденному житті, матеріал, що проводить, знаходиться тільки на кінчиках трьох пальців, так що продукт є досить теплим і зручним. Аксесуар дозволить Вам успішно використовувати не тільки Apple iPhone, iPad, iPod, але й пристрої з сенсорним дисплеєм від інших виробників.<br>Характеристики:</p>
+                        <ul>
+                            <li>Тип: рукавички зимові / сенсорні рукавички</li>
+                            <li>Колір: чорний</li>
+                            <li>Стать: Унісекс</li>
+                            <li>Розмір: Універсальний</li>
+                            <li>Особливості: Реагують на сенсор</li>
+                            <li>Склад: акрил/вовна</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="content-section " id="ship">
+            <div class="container">
+                <div class="title-all">Доставка і оплата</div>
+                <div class="row">
+
+                    <div class="second-item">
+                        <div class="second-title">
+                            <svg fill="#d6ad3d" width="40px" height="40px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" stroke="#d6ad3d" transform="matrix(1, 0, 0, 1, 0, 0)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M 0 6 L 0 8 L 19 8 L 19 23 L 12.84375 23 C 12.398438 21.28125 10.851563 20 9 20 C 7.148438 20 5.601563 21.28125 5.15625 23 L 4 23 L 4 18 L 2 18 L 2 25 L 5.15625 25 C 5.601563 26.71875 7.148438 28 9 28 C 10.851563 28 12.398438 26.71875 12.84375 25 L 21.15625 25 C 21.601563 26.71875 23.148438 28 25 28 C 26.851563 28 28.398438 26.71875 28.84375 25 L 32 25 L 32 16.84375 L 31.9375 16.6875 L 29.9375 10.6875 L 29.71875 10 L 21 10 L 21 6 Z M 1 10 L 1 12 L 10 12 L 10 10 Z M 21 12 L 28.28125 12 L 30 17.125 L 30 23 L 28.84375 23 C 28.398438 21.28125 26.851563 20 25 20 C 23.148438 20 21.601563 21.28125 21.15625 23 L 21 23 Z M 2 14 L 2 16 L 8 16 L 8 14 Z M 9 22 C 10.117188 22 11 22.882813 11 24 C 11 25.117188 10.117188 26 9 26 C 7.882813 26 7 25.117188 7 24 C 7 22.882813 7.882813 22 9 22 Z M 25 22 C 26.117188 22 27 22.882813 27 24 C 27 25.117188 26.117188 26 25 26 C 23.882813 26 23 25.117188 23 24 C 23 22.882813 23.882813 22 25 22 Z"></path></g></svg>
+                        </div>
+                        <div class="second-desc">
+                            <strong>Доставка</strong>
+                            Поштою або кур'єром протягом 1-3 робочих днів.
+                        </div>
+                    </div>
+
+                    <div class="second-item">
+                        <div class="second-title">
+                            <svg width="40px" height="40px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#62bcea"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <rect x="3" y="6" width="18" height="13" rx="2" stroke="rgb(98, 188, 234)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></rect> <path d="M3 10H20.5" stroke="rgb(98, 188, 234)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M7 15H9" stroke="rgb(98, 188, 234)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                        </div>
+                        <div class="second-desc">
+                            <strong>Оплата</strong>
+                            Оплата замовлень здійснюється тільки за фактом отримання товару в поштовому відділенні.
+                        </div>
+                    </div>
+
+                    <div class="second-item">
+                        <div class="second-title">
+                            <svg fill="#000000" width="40px" height="40px" viewBox="0 0 24 24" id="quality-4" data-name="Line Color" xmlns="http://www.w3.org/2000/svg" class="icon line-color"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><polygon id="secondary" points="12 8.25 11.38 9.4 10 9.59 11 10.48 10.76 11.75 12 11.15 13.24 11.75 13 10.48 14 9.59 12.62 9.4 12 8.25" style="fill: none; stroke: #00ff1e; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></polygon><polyline id="primary" points="5.79 13.57 3 17.56 6.03 18.46 7.91 21 10.79 16.89" style="fill: none; stroke: #00ff1e; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></polyline><polyline id="primary-2" data-name="primary" points="18.21 13.57 21 17.56 17.97 18.46 16.09 21 13.21 16.89" style="fill: none; stroke: #00ff1e; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></polyline><circle id="primary-3" data-name="primary" cx="12" cy="10" r="7" style="fill: none; stroke: #00ff1e; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></circle></g></svg>
+                        </div>
+                        <div class="second-desc">
+                            <strong>Гарантії</strong>
+                            Ми завжди перевіряємо товар перед відправкою і гарантуємо 100% якість. 
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="content-section " id="comment">
+            <div class="container">
+                <div class="title-all">Відгуки покупців</div>
+
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="rating-box">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                            </div>
+                            <div class="coment-box">
+                                Даний товар мені порадила подруга, тому що я взагалі не знала, що є спеціальні рукавички для сенсору. Хочу сказати, що я задоволена купівлею. Вони не дорогі, стильні і при цьому на сенсорі працюють як потрібно. Раніше вважала, що це смартфон тормозить на морозі, а питання було в рукавичках. Якість матеріалу не погана.
+                            </div>
+                            <div class="coment-img">
+                                <img src="/img/testimonial-2.jpg" alt="" srcset="">
+                                Ярослава Домінчук
+                            </div>
+                          </div>
+
+                      <div class="swiper-slide">
+                        <div class="rating-box">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                        <div class="coment-box">
+                            Хороші рукавички, стало на багато зручніше користуватися смартфоном. Використовував з айфон і андроїд, нормально працює все.
+                        </div>
+                        <div class="coment-img">
+                            <img src="/img/testimonial-3.jpg" alt="" srcset="">
+                            Володимир Голяєв
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="rating-box">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                        <div class="coment-box">
+                            Замовляла татові рукавички до нового телефону. Користуватись можна без проблем - екран швидко спрацьовує. Думаю, він привикне до них з настанням холодів. Придбала їх по акції. Дякую!
+                        </div>
+                        <div class="coment-img">
+                            <img src="/img/testimonial-4.jpg" alt="" srcset="">
+                            Христина Шумко
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+
+
+            </div>
+        </section>
+
+
+        <section class="content-section " id="order">
+            <div class="container map">
+                <div class="title-all">Заявка</div>
+                <div class="title-small">Заповніть форму нижче для того, щоб залишити заявку. Менеджер зв'яжеться з Вами найближчим часом.</div>
+                <form class="contact-form" id="contact-form">
+                    <input type="text" id="name" name="name" placeholder="Ваше ім'я" class="inp-style" autocomplete="off">
+                    <input type="text" name="phone" id="phone" placeholder="Номер телефону" class="inp-style" autocomplete="off">
+                    <button type="submit" class="order-btn">Замовити дзвінок</button>
+                </form>
+
+                <div class="tak">Наші месенджери</div>
+                <div class="mes">
+                    <a href="http://" target="_blank" rel="noopener noreferrer" style="border-radius: 6px;overflow: hidden;">
+                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 455.731 455.731" xml:space="preserve" width="30px" height="30px" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <rect x="0" y="0" style="fill:#7D3DAF;" width="455.731" height="455.731"></rect> <g> <path style="fill:#FFFFFF;" d="M371.996,146.901l-0.09-0.36c-7.28-29.43-40.1-61.01-70.24-67.58l-0.34-0.07 c-48.75-9.3-98.18-9.3-146.92,0l-0.35,0.07c-30.13,6.57-62.95,38.15-70.24,67.58l-0.08,0.36c-9,41.1-9,82.78,0,123.88l0.08,0.36 c6.979,28.174,37.355,58.303,66.37,66.589v32.852c0,11.89,14.49,17.73,22.73,9.15l33.285-34.599 c7.219,0.404,14.442,0.629,21.665,0.629c24.54,0,49.09-2.32,73.46-6.97l0.34-0.07c30.14-6.57,62.96-38.15,70.24-67.58l0.09-0.36 C380.996,229.681,380.996,188.001,371.996,146.901z M345.656,264.821c-4.86,19.2-29.78,43.07-49.58,47.48 c-25.921,4.929-52.047,7.036-78.147,6.313c-0.519-0.014-1.018,0.187-1.38,0.559c-3.704,3.802-24.303,24.948-24.303,24.948 l-25.85,26.53c-1.89,1.97-5.21,0.63-5.21-2.09v-54.422c0-0.899-0.642-1.663-1.525-1.836c-0.005-0.001-0.01-0.002-0.015-0.003 c-19.8-4.41-44.71-28.28-49.58-47.48c-8.1-37.15-8.1-74.81,0-111.96c4.87-19.2,29.78-43.07,49.58-47.48 c45.27-8.61,91.17-8.61,136.43,0c19.81,4.41,44.72,28.28,49.58,47.48C353.765,190.011,353.765,227.671,345.656,264.821z"></path> <path style="fill:#FFFFFF;" d="M270.937,289.942c-3.044-0.924-5.945-1.545-8.639-2.663 c-27.916-11.582-53.608-26.524-73.959-49.429c-11.573-13.025-20.631-27.73-28.288-43.292c-3.631-7.38-6.691-15.049-9.81-22.668 c-2.844-6.948,1.345-14.126,5.756-19.361c4.139-4.913,9.465-8.673,15.233-11.444c4.502-2.163,8.943-0.916,12.231,2.9 c7.108,8.25,13.637,16.922,18.924,26.485c3.251,5.882,2.359,13.072-3.533,17.075c-1.432,0.973-2.737,2.115-4.071,3.214 c-1.17,0.963-2.271,1.936-3.073,3.24c-1.466,2.386-1.536,5.2-0.592,7.794c7.266,19.968,19.513,35.495,39.611,43.858 c3.216,1.338,6.446,2.896,10.151,2.464c6.205-0.725,8.214-7.531,12.562-11.087c4.25-3.475,9.681-3.521,14.259-0.624 c4.579,2.898,9.018,6.009,13.43,9.153c4.331,3.086,8.643,6.105,12.638,9.623c3.841,3.383,5.164,7.821,3.001,12.412 c-3.96,8.408-9.722,15.403-18.034,19.868C276.387,288.719,273.584,289.127,270.937,289.942 C267.893,289.017,273.584,289.127,270.937,289.942z"></path> <path style="fill:#FFFFFF;" d="M227.942,131.471c36.515,1.023,66.506,25.256,72.933,61.356c1.095,6.151,1.485,12.44,1.972,18.683 c0.205,2.626-1.282,5.121-4.116,5.155c-2.927,0.035-4.244-2.414-4.434-5.039c-0.376-5.196-0.637-10.415-1.353-15.568 c-3.78-27.201-25.47-49.705-52.545-54.534c-4.074-0.727-8.244-0.918-12.371-1.351c-2.609-0.274-6.026-0.432-6.604-3.675 c-0.485-2.719,1.81-4.884,4.399-5.023C226.527,131.436,227.235,131.468,227.942,131.471 C264.457,132.494,227.235,131.468,227.942,131.471z"></path> <path style="fill:#FFFFFF;" d="M283.434,203.407c-0.06,0.456-0.092,1.528-0.359,2.538c-0.969,3.666-6.527,4.125-7.807,0.425 c-0.379-1.098-0.436-2.347-0.438-3.529c-0.013-7.734-1.694-15.46-5.594-22.189c-4.009-6.916-10.134-12.73-17.318-16.248 c-4.344-2.127-9.042-3.449-13.803-4.237c-2.081-0.344-4.184-0.553-6.275-0.844c-2.534-0.352-3.887-1.967-3.767-4.464 c0.112-2.34,1.822-4.023,4.372-3.879c8.38,0.476,16.474,2.287,23.924,6.232c15.15,8.023,23.804,20.687,26.33,37.597 c0.114,0.766,0.298,1.525,0.356,2.294C283.198,199.002,283.288,200.903,283.434,203.407 C283.374,203.863,283.288,200.903,283.434,203.407z"></path> <path style="fill:#FFFFFF;" d="M260.722,202.523c-3.055,0.055-4.69-1.636-5.005-4.437c-0.219-1.953-0.392-3.932-0.858-5.832 c-0.918-3.742-2.907-7.21-6.055-9.503c-1.486-1.083-3.17-1.872-4.934-2.381c-2.241-0.647-4.568-0.469-6.804-1.017 c-2.428-0.595-3.771-2.561-3.389-4.839c0.347-2.073,2.364-3.691,4.629-3.527c14.157,1.022,24.275,8.341,25.719,25.007 c0.102,1.176,0.222,2.419-0.039,3.544C263.539,201.464,262.113,202.429,260.722,202.523 C257.667,202.578,262.113,202.429,260.722,202.523z"></path> </g> </g> </g></svg>
+                    </a>
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                        <svg width="30px" height="30px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M128,0 C57.307,0 0,57.307 0,128 L0,128 C0,198.693 57.307,256 128,256 L128,256 C198.693,256 256,198.693 256,128 L256,128 C256,57.307 198.693,0 128,0 L128,0 Z" fill="#40B3E0"> </path> <path d="M190.2826,73.6308 L167.4206,188.8978 C167.4206,188.8978 164.2236,196.8918 155.4306,193.0548 L102.6726,152.6068 L83.4886,143.3348 L51.1946,132.4628 C51.1946,132.4628 46.2386,130.7048 45.7586,126.8678 C45.2796,123.0308 51.3546,120.9528 51.3546,120.9528 L179.7306,70.5928 C179.7306,70.5928 190.2826,65.9568 190.2826,73.6308" fill="#FFFFFF"> </path> <path d="M98.6178,187.6035 C98.6178,187.6035 97.0778,187.4595 95.1588,181.3835 C93.2408,175.3085 83.4888,143.3345 83.4888,143.3345 L161.0258,94.0945 C161.0258,94.0945 165.5028,91.3765 165.3428,94.0945 C165.3428,94.0945 166.1418,94.5735 163.7438,96.8115 C161.3458,99.0505 102.8328,151.6475 102.8328,151.6475" fill="#D2E5F1"> </path> <path d="M122.9015,168.1154 L102.0335,187.1414 C102.0335,187.1414 100.4025,188.3794 98.6175,187.6034 L102.6135,152.2624" fill="#B5CFE4"> </path> </g> </g></svg>
+                    </a>
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                        <svg xmlns="http://www.w3.org/2000/svg" aria-label="WhatsApp" role="img" viewBox="0 0 512 512" width="30px" height="30px" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><rect width="512" height="512" rx="15%" fill="#25d366"></rect><path fill="#25d366" stroke="#ffffff" stroke-width="26" d="M123 393l14-65a138 138 0 1150 47z"></path><path fill="#ffffff" d="M308 273c-3-2-6-3-9 1l-12 16c-3 2-5 3-9 1-15-8-36-17-54-47-1-4 1-6 3-8l9-14c2-2 1-4 0-6l-12-29c-3-8-6-7-9-7h-8c-2 0-6 1-10 5-22 22-13 53 3 73 3 4 23 40 66 59 32 14 39 12 48 10 11-1 22-10 27-19 1-3 6-16 2-18"></path></g></svg>
+                    </a>
+                </div>
+            </div>
+
+        </section>
+
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://unpkg.com/imask"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            autoHeight: true,
+          spaceBetween: 30,
+          loop:true,
+          centeredSlides: true,
+          autoplay: {
+            delay: 25500,
+            disableOnInteraction: false,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+
+        const element = document.getElementById('phone');
+        const maskOptions = {
+        mask: '+{38} (\\000) 000-00-00'
+        };
+        const mask = IMask(element, maskOptions);
+
+
+        function redirectToBot() {
+      window.location.href = "#order";
+    }
+
+    $('#contact-form').submit(function(event) {
+      event.preventDefault(); // Предотвращаем стандартное поведение
+      submitForm(); // Вызываем вашу функцию обработки формы
+    });
+
+    function submitForm() {
+
+
+        if($('#name').val() != '' && $('#phone').val().length == 19){
+            if(getCookie('sended')){
+                $('.erro-box').addClass('err-show')
+                setTimeout(()=> {
+                    $('.erro-box').removeClass('err-show')
+                },3000)
+            }else{
+                var formData = {
+                name: $('#name').val(),
+                phone: $('#phone').val()
+                    };
+
+                    $.ajax({
+                    type: 'POST',
+                    url: 'order.php',
+                    data: formData,
+                        success: function(response) {
+                            $('#name').val('')
+                            $('#phone').val('')
+                            setCookie('sended','1',5)
+                            $('.success').fadeIn(400)
+                            $('.player').html(`<lottie-player src="https://assets6.lottiefiles.com/packages/lf20_c3r455gw.json"  background="transparent"  speed="0.8"  style="width: 120px; height: 120px;"  autoplay></lottie-player>`)
+                            $('body').addClass('no-scroll')
+                        },
+                        error: function(error) {
+                        console.error('Произошла ошибка: ' + error);
+                        }
+                    });
+            }      
+        }else{
+            if($('#name').val() == ''){
+                $('#name').addClass('err')
+            }
+            if($('#phone').val().length < 19){
+                $('#phone').addClass('err')
+            }
+        }
+
+
+
+
+    }
+
+    $(':input').keyup(function(){
+        $(this).removeClass('err')
+    })
+
+    function setCookie(name, value, minutes) {
+        const expirationDate = new Date();
+        expirationDate.setTime(expirationDate.getTime() + (minutes * 60 * 1000));
+        const expires = "expires=" + expirationDate.toUTCString();
+        document.cookie = name + "=" + value + ";" + expires + ";path=/";
+    }
+
+    function getCookie(cookieName) {
+        return document.cookie
+            .split('; ')
+            .find(cookie => cookie.startsWith(cookieName + '='))
+            ?.split('=')[1] || null;
+    }
+
+    $('.close-suc').click(function(){
+        $('.success').fadeOut(400)
+        $('body').removeClass('no-scroll')
+        setTimeout(function(){
+            $('.player').html('')
+        },1000)
+    })
+      </script>
+</body>
+</html>
