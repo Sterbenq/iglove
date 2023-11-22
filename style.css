@@ -12,7 +12,7 @@ body{
     position: relative;
     color: #fff;
     text-align: center;
-    background: url(/img/banner-bg.jpg);
+    background: url(/banner-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -41,7 +41,7 @@ body{
     width: 400px;
     height: 100%;
     opacity: 0.5;
-    background-image: url(/img/dot.png);
+    background-image: url(/dot.png);
 }
 .container{
     max-width: 1140px;
@@ -226,7 +226,7 @@ ul{
     z-index: 1;
     text-align: center;
     padding-top: 40px;
-    background: url(/img/banner-bg.jpg);
+    background: url(/banner-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -314,7 +314,7 @@ ul{
     margin-bottom: 10px;
 }
 .map{
-    background: url(/img/map-bg.webp);
+    background: url(/map-bg.webp);
     background-repeat: no-repeat;
     /* background-position: center;
     background-size: 70%; */
