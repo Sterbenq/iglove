@@ -7,8 +7,13 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-    <link rel="shortcut icon" href="./image2.png" type="image/x-icon">
-    <title>iGlove</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="shortcut icon" href="/img/image2.png" type="image/x-icon">
+    <title>Рукавички для сенсорних екранів</title>
 </head>
 <body>
 
@@ -31,20 +36,27 @@
     <main>
         <section class="content-section" id="home">
             <div class="container">
-                <div class="title">iGlove</div>
+                <div class="title animate__animated animate__zoomIn">Сенсорні <em>рукавички</em></div>
                 <div class="row">
-                    <div class="row-elem">
-                        <h1>Рукавички для сенсорних екранів iGlove</h1>
+                    <div class="row-elem animate__animated animate__fadeInLeft">
+                        <h1>Рукавички для сенсорних екранів</h1>
                         <p>Теплі зимові рукавички з спеціального провідного матеріалу дозволять користувачеві використовувати сенсорні пристрої, в зимовий період не знімаючи рукавички.</p>
                         <div class="price">
-                            249 ₴
+                            <div class="old-price">349 ₴</div>
+                            <div class="new-price">
+                                249 ₴
+                                <div class="akc">
+                                    Знижка
+                                    <strong>-37%</strong>
+                                </div>
+                            </div>
                         </div>
                         <div class="btn-box">
-                            <button class="mode-btn" onclick="redirectToBot()">Замовити iGlove</button>
+                            <button class="mode-btn" onclick="redirectToBot()">Замовити рукавички</button>
                         </div>
                     </div>
-                    <div class="row-elem animated-box">
-                        <img src="./image-1.png" alt="" srcset="">
+                    <div class="row-elem animated-box ">
+                        <img src="/img/image-1.png" alt="" srcset="">
                     </div>
                 </div>
             </div>
@@ -54,7 +66,7 @@
         <section class="content-section" id="second">
             <div class="container">
                 <div class="row">
-                    <div class="second-item">
+                    <div class="second-item animate__animated animate__fadeInLeft wow">
                         <div class="second-title">
                             <i class='bx bx-like' ></i>
                         </div>
@@ -63,7 +75,7 @@
                             Ми гарантуємо 100% якість всієї продукції - Ви зможете обміняти або повернути товар, якість якого Вас не задовольняє.
                         </div>
                     </div>
-                    <div class="second-item">
+                    <div class="second-item animate__animated animate__fadeIn wow">
                         <div class="second-title">
                             <i class='bx bx-time-five'></i>
                         </div>
@@ -72,7 +84,7 @@
                             Встигніть придбати рукавички для сенсорних екранів за вигідною ціною.
                         </div>
                     </div>
-                    <div class="second-item">
+                    <div class="second-item animate__animated animate__fadeInRight wow">
                         <div class="second-title">
                             <i class='bx bx-package' ></i>
                         </div>
@@ -88,8 +100,8 @@
         <section class="content-section section-padding" id="about">
             <div class="container">
                 <div class="row">
-                    <div class="row-elem">
-                        <div class="row-title">Зробіть своє життя простішим разом з iGlove</div>
+                    <div class="row-elem animate__animated animate__fadeInLeft wow">
+                        <div class="row-title">Зробіть своє життя простішим разом з сенсорними рукавичками</div>
                         <p>Рукавички для сенсорних екранів - ідеальне рішення для холодної зими. Теплі зимові рукавички з спеціальні провідного матеріалу дозволять користувачеві використовувати сенсорні пристрої, в зимовий період не знімаючи рукавички.</p>
                         <ul>
                             <li>Допустиме ручне прання в прохолодній воді</li>
@@ -99,25 +111,45 @@
                             <li>Не подряпає або ще якось пошкодить екран</li>
                         </ul>
                     </div>
-                    <div class="row-elem image-box">
-                        <img src="./image2.png" alt="" srcset="" height="350">
+                    <div class="row-elem image-box animate__animated animate__fadeInRight wow">
+                        <img src="/img/image2.png" alt="" srcset="" height="350">
                     </div>
                 </div>
             </div>
             <div class="svg-shape-bottom">
-                <img src="./wave-bottom-1.svg" class="bottom-shape img-fluid" alt="" >
+                <img src="/img/wave-bottom-1.svg" class="bottom-shape img-fluid" alt="" >
             </div>
         </section>
 
+        <section class="content-section" id="photo">
+
+            <div class="container">
+                <div class="images">
+                    <div class="img-cont solo animate__animated animate__slideInLeft wow">
+                        <img src="./img/291090937.webp" alt="" srcset="">
+                    </div>
+
+                    <div class="two animate__animated animate__slideInRight wow">
+                        <div class="img-cont">
+                            <img src="./img/4283331688_w640_h2048_uauaua.jpg" alt="" srcset="">
+                        </div>
+                        <div class="img-cont">
+                            <img src="./img/4283334275_w640_h2048_uatstsuautsatsua.jpg" alt="" srcset="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
 
         <section class="content-section" id="third">
             <div class="container">
                 <div class="row">
-                    <div class="row-elem image-box">
-                        <img src="./image3.png" alt="" srcset="" height="350">
+                    <div class="row-elem image-box animate__animated animate__fadeInLeft wow">
+                        <img src="/img/image3.png" alt="" srcset="" height="350">
                     </div>
-                    <div class="row-elem">
-                        <div class="row-title">Зробіть своє життя простішим разом з iGlove</div>
+                    <div class="row-elem animate__animated animate__fadeInRight wow">
+                        <div class="row-title">Рукавички для сенсорних екранів - ідеальне рішення для холодної зими</div>
                         <p>Це рукавички, які можна носити просто в повсякденному житті, матеріал, що проводить, знаходиться тільки на кінчиках трьох пальців, так що продукт є досить теплим і зручним. Аксесуар дозволить Вам успішно використовувати не тільки Apple iPhone, iPad, iPod, але й пристрої з сенсорним дисплеєм від інших виробників.<br>Характеристики:</p>
                         <ul>
                             <li>Тип: рукавички зимові / сенсорні рукавички</li>
@@ -140,7 +172,7 @@
                 <div class="title-all">Доставка і оплата</div>
                 <div class="row">
 
-                    <div class="second-item">
+                    <div class="second-item animate__animated animate__slideInLeft wow">
                         <div class="second-title">
                             <svg fill="#d6ad3d" width="40px" height="40px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" stroke="#d6ad3d" transform="matrix(1, 0, 0, 1, 0, 0)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M 0 6 L 0 8 L 19 8 L 19 23 L 12.84375 23 C 12.398438 21.28125 10.851563 20 9 20 C 7.148438 20 5.601563 21.28125 5.15625 23 L 4 23 L 4 18 L 2 18 L 2 25 L 5.15625 25 C 5.601563 26.71875 7.148438 28 9 28 C 10.851563 28 12.398438 26.71875 12.84375 25 L 21.15625 25 C 21.601563 26.71875 23.148438 28 25 28 C 26.851563 28 28.398438 26.71875 28.84375 25 L 32 25 L 32 16.84375 L 31.9375 16.6875 L 29.9375 10.6875 L 29.71875 10 L 21 10 L 21 6 Z M 1 10 L 1 12 L 10 12 L 10 10 Z M 21 12 L 28.28125 12 L 30 17.125 L 30 23 L 28.84375 23 C 28.398438 21.28125 26.851563 20 25 20 C 23.148438 20 21.601563 21.28125 21.15625 23 L 21 23 Z M 2 14 L 2 16 L 8 16 L 8 14 Z M 9 22 C 10.117188 22 11 22.882813 11 24 C 11 25.117188 10.117188 26 9 26 C 7.882813 26 7 25.117188 7 24 C 7 22.882813 7.882813 22 9 22 Z M 25 22 C 26.117188 22 27 22.882813 27 24 C 27 25.117188 26.117188 26 25 26 C 23.882813 26 23 25.117188 23 24 C 23 22.882813 23.882813 22 25 22 Z"></path></g></svg>
                         </div>
@@ -150,7 +182,7 @@
                         </div>
                     </div>
 
-                    <div class="second-item">
+                    <div class="second-item animate__animated animate__zoomIn wow">
                         <div class="second-title">
                             <svg width="40px" height="40px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#62bcea"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <rect x="3" y="6" width="18" height="13" rx="2" stroke="rgb(98, 188, 234)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></rect> <path d="M3 10H20.5" stroke="rgb(98, 188, 234)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M7 15H9" stroke="rgb(98, 188, 234)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
                         </div>
@@ -160,7 +192,7 @@
                         </div>
                     </div>
 
-                    <div class="second-item">
+                    <div class="second-item animate__animated animate__zoomIn wow">
                         <div class="second-title">
                             <svg fill="#000000" width="40px" height="40px" viewBox="0 0 24 24" id="quality-4" data-name="Line Color" xmlns="http://www.w3.org/2000/svg" class="icon line-color"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><polygon id="secondary" points="12 8.25 11.38 9.4 10 9.59 11 10.48 10.76 11.75 12 11.15 13.24 11.75 13 10.48 14 9.59 12.62 9.4 12 8.25" style="fill: none; stroke: #00ff1e; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></polygon><polyline id="primary" points="5.79 13.57 3 17.56 6.03 18.46 7.91 21 10.79 16.89" style="fill: none; stroke: #00ff1e; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></polyline><polyline id="primary-2" data-name="primary" points="18.21 13.57 21 17.56 17.97 18.46 16.09 21 13.21 16.89" style="fill: none; stroke: #00ff1e; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></polyline><circle id="primary-3" data-name="primary" cx="12" cy="10" r="7" style="fill: none; stroke: #00ff1e; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></circle></g></svg>
                         </div>
@@ -170,6 +202,15 @@
                         </div>
                     </div>
 
+                    <div class="second-item animate__animated animate__slideInRight wow">
+                        <div class="second-title">
+                            <svg viewBox="0 0 24 24" width="40px" height="40px" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#2a00fa"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <rect x="5" y="4" width="14" height="17" rx="2" stroke="#2a00fa" stroke-width="2"></rect> <path d="M9 9H15" stroke="#2a00fa" stroke-width="2" stroke-linecap="round"></path> <path d="M9 13H15" stroke="#2a00fa" stroke-width="2" stroke-linecap="round"></path> <path d="M9 17H13" stroke="#2a00fa" stroke-width="2" stroke-linecap="round"></path> </g></svg>
+                        </div>
+                        <div class="second-desc">
+                            <strong>Заявка</strong>
+                            Залишіть заявку на нашому сайті. Менеджер зв'яжеться з Вами найближчим часом.
+                        </div>
+                    </div>
 
                 </div>
             </div>
@@ -177,7 +218,10 @@
         </section>
 
 
-        <section class="content-section " id="comment">
+        <section class="content-section animate__animated animate__fadeIn wow" id="comment">
+            <div class="container" style="margin-bottom: 20px;">
+                <video src="./glovevideo.mp4" width="100%" controls></video>
+            </div>
             <div class="container">
                 <div class="title-all">Відгуки покупців</div>
 
@@ -195,7 +239,7 @@
                                 Даний товар мені порадила подруга, тому що я взагалі не знала, що є спеціальні рукавички для сенсору. Хочу сказати, що я задоволена купівлею. Вони не дорогі, стильні і при цьому на сенсорі працюють як потрібно. Раніше вважала, що це смартфон тормозить на морозі, а питання було в рукавичках. Якість матеріалу не погана.
                             </div>
                             <div class="coment-img">
-                                <img src="./testimonial-2.jpg" alt="" srcset="">
+                                <img src="/img/testimonial-2.jpg" alt="" srcset="">
                                 Ярослава Домінчук
                             </div>
                           </div>
@@ -212,7 +256,7 @@
                             Хороші рукавички, стало на багато зручніше користуватися смартфоном. Використовував з айфон і андроїд, нормально працює все.
                         </div>
                         <div class="coment-img">
-                            <img src="./testimonial-3.jpg" alt="" srcset="">
+                            <img src="/img/testimonial-3.jpg" alt="" srcset="">
                             Володимир Голяєв
                         </div>
                       </div>
@@ -228,7 +272,7 @@
                             Замовляла татові рукавички до нового телефону. Користуватись можна без проблем - екран швидко спрацьовує. Думаю, він привикне до них з настанням холодів. Придбала їх по акції. Дякую!
                         </div>
                         <div class="coment-img">
-                            <img src="./testimonial-4.jpg" alt="" srcset="">
+                            <img src="/img/testimonial-4.jpg" alt="" srcset="">
                             Христина Шумко
                         </div>
                       </div>
@@ -244,8 +288,25 @@
         </section>
 
 
-        <section class="content-section " id="order">
+        <section class="content-section animate__animated animate__fadeIn wow" id="order" >
             <div class="container map">
+
+                <div class="last">
+
+                    <img src="./img//image-4.png" alt="" srcset="">
+
+                    <div class="price">
+                        <div class="old-price">349 ₴</div>
+                        <div class="new-price">
+                            249 ₴
+                            <div class="akc">
+                                Знижка
+                                <strong>-37%</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="title-all">Заявка</div>
                 <div class="title-small">Заповніть форму нижче для того, щоб залишити заявку. Менеджер зв'яжеться з Вами найближчим часом.</div>
                 <form class="contact-form" id="contact-form">
@@ -277,6 +338,8 @@
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="https://unpkg.com/imask"></script>
     <script>
+        new WOW().init();
+
         var swiper = new Swiper(".mySwiper", {
             autoHeight: true,
           spaceBetween: 30,
