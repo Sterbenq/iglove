@@ -12,7 +12,7 @@ body{
     position: relative;
     color: #fff;
     text-align: center;
-    background: url(./img/banner-bg.jpg);
+    background: url(./img/banner-bg.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -41,7 +41,7 @@ body{
     width: 400px;
     height: 100%;
     opacity: 0.5;
-    background-image: url(./img/dot.png);
+    background-image: url(./img/dot.webp);
 }
 .container{
     max-width: 1200px;
@@ -224,7 +224,7 @@ ul{
     z-index: 1;
     text-align: center;
     padding-top: 40px;
-    background: url(./img/banner-bg.jpg);
+    background: url(./img/banner-bg.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
