@@ -12,7 +12,7 @@ body{
     position: relative;
     color: #fff;
     text-align: center;
-    background: url(./banner-bg.jpg);
+    background: url(./img/banner-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -31,8 +31,8 @@ body{
     height: 100%;
     width: 100%;
     opacity: .9;
-    background: #6332f0;
-    background: linear-gradient(to right, rgba(32, 40, 119, 1), rgba(55, 46, 149, 1), rgba(83, 49, 177, 1), rgba(114, 48, 205, 1), rgba(150, 41, 230, 1));
+    background: #535353;
+    /* background: linear-gradient(to right, rgba(32, 40, 119, 1), rgba(55, 46, 149, 1), rgba(83, 49, 177, 1), rgba(114, 48, 205, 1), rgba(150, 41, 230, 1)); */
 }
 .pattern-bg{
     position: absolute;
@@ -41,10 +41,10 @@ body{
     width: 400px;
     height: 100%;
     opacity: 0.5;
-    background-image: url(./dot.png);
+    background-image: url(./img/dot.png);
 }
 .container{
-    max-width: 1140px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 .row {
@@ -52,8 +52,6 @@ body{
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
 }
 .row-elem{
     width: 50%;
@@ -77,13 +75,13 @@ body{
     text-align: center;
 }
 .animated-box{
-    -webkit-animation: bounce 3s infinite ease-in-out;
-    -o-animation: bounce 3s infinite ease-in-out;
-    -ms-animation: bounce 3s infinite ease-in-out;
-    -moz-animation: bounce 3s infinite ease-in-out;
-    animation: bounce 3s infinite ease-in-out;
+    -webkit-animation: bouncee 3s infinite ease-in-out;
+    -o-animation: bouncee 3s infinite ease-in-out;
+    -ms-animation: bouncee 3s infinite ease-in-out;
+    -moz-animation: bouncee 3s infinite ease-in-out;
+    animation: bouncee 3s infinite ease-in-out;
 }
-@keyframes bounce {
+@keyframes bouncee {
     0% {
         transform: translateY(-5px);
     }
@@ -101,7 +99,7 @@ body{
 
 .mode-btn{
     color: #fff;
-    background: #6332f0;
+    background: #fbcc5c;
     outline: none;
     transition: all .3s ease;
     border-radius: 6px;
@@ -159,7 +157,7 @@ body{
     font-size: 40px;
 }
 #second{
-    padding-top: 30px;
+    padding-top: 50px;
 }
 .second-desc{
     text-align: center;
@@ -208,7 +206,7 @@ ul{
     font-weight: bold;
     font-size: 38px;
     margin-bottom: 24px;
-    line-height: 1.2;
+    line-height: 1.1;
 }
 #third{
     padding-top: 50px;
@@ -226,7 +224,7 @@ ul{
     z-index: 1;
     text-align: center;
     padding-top: 40px;
-    background: url(./banner-bg.jpg);
+    background: url(./img/banner-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -244,8 +242,8 @@ ul{
     height: 100%;
     width: 100%;
     opacity: .9;
-    background: #6332f0;
-    background: linear-gradient(to right, rgba(32, 40, 119, 1), rgba(55, 46, 149, 1), rgba(83, 49, 177, 1), rgba(114, 48, 205, 1), rgba(150, 41, 230, 1));
+    background: #535353;
+    /* background: linear-gradient(to right, rgba(32, 40, 119, 1), rgba(55, 46, 149, 1), rgba(83, 49, 177, 1), rgba(114, 48, 205, 1), rgba(150, 41, 230, 1)); */
 }
 #ship{
     padding-bottom: 50px;
@@ -314,7 +312,7 @@ ul{
     margin-bottom: 10px;
 }
 .map{
-    background: url(./map-bg.webp);
+    background: url(./img/map-bg.webp);
     background-repeat: no-repeat;
     /* background-position: center;
     background-size: 70%; */
@@ -329,7 +327,7 @@ ul{
     gap: 15px;
 }
 .inp-style{
-    border: 2px solid #6332f0;
+    border: 2px solid #fbcc5c;
     outline: none;
     height: 52px;
     font-size: 16px;
@@ -341,11 +339,11 @@ ul{
 }
 .order-btn{
     height: 52px;
-    background-color: #6332f0;
+    background-color: #fbcc5c;
     outline: none;
-    border: 2px solid #6332f0;
+    border: 2px solid #fbcc5c;
     border-radius: 20px;
-    color: #fff;
+    color: #333;
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
@@ -360,7 +358,7 @@ ul{
     text-align: center;
     font-weight: bold;
     font-size: 18px;
-    color: #6332f0;
+    color: #333;
 }
 .mes a{
     display: block;
@@ -450,9 +448,154 @@ input{
     max-height: 100vh;
     overflow: hidden;
 }
+
+.new-price{
+    color: #d71616;
+    font-size: 60px;
+    position: relative;
+}
+.mode-btn{
+    background-color: #d71616;
+    text-transform: uppercase;
+}
+.old-price{
+    font-size: 30px;
+    text-decoration: line-through;
+    padding-bottom: 8px;
+    
+}
+.price{
+    display: flex;
+    align-items: flex-end;
+    gap: 8px;
+}
+#home h1{
+    margin-bottom: 20px;
+}
+.swiper-pagination-bullet-active{
+    background: #d71616 !important;
+}
+.swiper-button-next:after, .swiper-button-prev:after{
+    color: #d71616 !important;
+}
+#ship .second-item{
+    width: 25%;
+}
+.title{
+    text-transform: uppercase;
+   
+}
+.title em{
+    color: #d71616;
+    font-style: normal;
+}
+.akc{
+    position: absolute;
+    top: -20px;
+    right: -85px;
+    font-size: 12px;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fbcc5c;
+    text-transform: uppercase;
+    border-radius: 8px;
+    padding: 5px 10px;
+}
+.akc strong{
+    font-size: 22px;
+}
+.price{
+    margin-top: 20px;
+}
+.second-item{
+    background-color: #fbcc5c;
+    border-radius: 16px;
+    padding: 35px 20px;
+}
+.second-title{
+    background-color: #fff;
+}
+#second .row{
+    gap: 20px;
+    flex-wrap: nowrap;
+}
+#ship .row{
+    gap: 12px;
+    flex-wrap: nowrap;   
+}
+.last{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.last img{
+    height: 200px;
+}
+.map .price{
+    margin-top: 0;
+}
+.map{
+    background-position: center bottom 150px;
+}
+.images{
+    display: flex;
+    gap: 10px;
+}
+.images img{
+    width: 100%;
+    border-radius: 10px;
+}
+.img-cont{
+    display: flex;
+}
+.solo img{
+    height: 100%;
+}
+.solo{
+    width: 55%;
+}
+.two{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+#photo{
+    padding-top: 50px;
+}
 @media (max-width: 800px){
+    .images{
+        flex-direction: column;
+    }
+    .solo,.two{
+        width: 100%;
+    }
+    #home .price{
+        margin-top: 30px;
+    }
+    #third{
+        padding-bottom: 50px;
+    }
+    .row-elem{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #ship .second-item{
+        width: 100%;
+    }
+    .price{
+        justify-content: center;
+        margin-left: -20px;
+    }
+    .akc{
+        right: -78px;
+    }
     .title{
         margin-bottom: 35px;
+        font-size: 40px;
     }
     #home h1{
         font-size: 36px;
@@ -460,6 +603,8 @@ input{
     }
     .row{
         flex-direction: column;
+        max-width: 100%;
+        align-items: center;
     }
     .row-elem{
         width: 100%;
@@ -515,5 +660,8 @@ input{
     }
     .content-section p{
         text-align: center;
+    }
+    .row-title{
+        font-size: 36px;
     }
 }
